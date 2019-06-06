@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreadActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/cacheThreadPool"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="无核心线程,并且最大线程数为int的最大值."
+        android:gravity="center"
+        android:background="#EEE"
+        />
+    <TextView
+        android:id="@+id/fixedThreadPool"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="核心线程数和最大线程数相同"
+        android:gravity="center"
+        android:background="#FFF"
+        />
+    <TextView
+        android:id="@+id/scheduledThreadPool"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="核心线程数是固定的,非核心线程无限大,并且非核心线程数有10s的空闲存活时间"
+        android:gravity="center"
+        android:background="#EEE"
+        />
+    <TextView
+        android:id="@+id/singleThreadExecutor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="线程中只有一个核心线程"
+        android:gravity="center"
+        android:background="#FFF"
+        />
+</LinearLayout>

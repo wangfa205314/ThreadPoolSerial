@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoubleSerialActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/openSerial1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="打开串口1"
+        android:gravity="center"
+        android:background="#DDDDDD"
+        />
+    <TextView
+        android:id="@+id/openSerial2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="打开串口2"
+        android:gravity="center"
+        android:background="#EEE"
+        />
+
+    <TextView
+        android:id="@+id/closeSerial1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="关闭串口1"
+        android:gravity="center"
+        android:background="#DDD"
+        />
+    <TextView
+        android:id="@+id/closeSerial2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="关闭串口2"
+        android:gravity="center"
+        android:background="#EEE"
+        />
+
+</LinearLayout>

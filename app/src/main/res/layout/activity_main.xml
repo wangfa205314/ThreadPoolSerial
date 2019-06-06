@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/thread"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="线程"
+       android:gravity="center"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/doubleserial"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="双口串口"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/serial"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="串口"
+        android:gravity="center"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/seriaTDS"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="串口TDS"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
