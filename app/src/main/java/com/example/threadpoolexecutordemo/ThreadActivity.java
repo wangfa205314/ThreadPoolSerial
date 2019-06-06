@@ -87,6 +87,7 @@ public class ThreadActivity extends AppCompatActivity implements View.OnClickLis
                         }
                     }
                 });
+
                 break;
 
             case R.id.scheduledThreadPool:
